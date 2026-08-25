@@ -12,7 +12,6 @@ union Data
 
 int main()
 {
-    // Initialize union during declaration
     union Data data = {10};
 
     printf("Integer: %d\n", data.i);
