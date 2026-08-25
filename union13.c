@@ -8,8 +8,6 @@ union Data
     float f;
     char c;
 };
-
-// Function accepts union as argument
 void display(union Data data, int type)
 {
     if (type == 1)
