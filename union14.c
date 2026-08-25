@@ -10,7 +10,6 @@ union Data
     char c;
 };
 
-// Function returns a union
 union Data getData()
 {
     union Data data;
